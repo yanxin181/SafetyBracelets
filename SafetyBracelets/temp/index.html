@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>外勤人员监测系统</title>
+    <link rel="stylesheet" href="/static/css/base.css">
+    <link rel="stylesheet" href="/static/css/common.css">
+    <link rel="stylesheet" href="/static/css/index.css">
+    <script src="/static/js/index.js"></script>
+</head>
+<body>
+    <!-- 头部轮播图 -->
+    <header class="header">
+        <!-- 快捷导航栏 -->
+        <section class="shortcut">
+            <div class="fl">
+                <h1>
+                    人员管理系统
+                </h1>
+                <ul>
+                    <li><a href="#">最新活动</a></li>
+                    <li><a href="#">产品</a></li>
+                </ul>
+            </div>
+            <div class="fr">
+                <ul>
+                    <li><span></span></li>
+                    <li><a href="#" class="china">中国站</a></li>
+                    <li><a href="#">文档</a></li>
+                    <li><a href="#">备案</a></li>
+                    <li><a href="#">控制台</a></li>
+                    <li><a href="login.html">登录</a></li>
+                    <li><a href="#" class=""><button>免费注册</button></a></li>
+                </ul>
+                
+            </div>
+
+        </section>
+        <!-- 左侧标题 -->
+        <div class="l_title ">
+            <h2>人员管理系统</h2>
+            <p>全民动员，坚决打赢疫情防控阻击战，一起向未来</p>
+            <button>了解详情</button>
+        </div>
+        <!-- 右侧图片 -->
+        <div class="r_pic">
+            <img src="/static/imgs/bracelet.png" alt="">
+        </div>
+        <!-- 底下轮播按钮 -->
+        <div class="bot">
+            <ul>
+                <li ></li>
+                <li></li>
+                <li class="style_blue"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </header>
+    <!-- 三个人员模块 -->
+    <div class="three_people w">
+        <ul>
+            <li>
+                <a href="#"> 
+                 <img src="/static/imgs/ico1.png" alt="">
+                 <span>消防人员</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="/static/imgs/ico2.png" alt="">
+                    <span>缉毒特警</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="/static/imgs/ico3.png" alt="">
+                    <span>医护人员</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- 图表内容 -->
+    <div class="box">
+        <!-- 头部 -->
+        <div class="box_header">
+            <div class="bh w">
+                <h2>性能强大、安全、稳定的产品</h2>
+                <p>实时监测各项数据，保证人员安全</p>
+            </div>
+            <!-- 导航栏 -->
+            <div class="b_nav w ">
+                <ul>
+                    <li class="focue_lis">
+                        <img src="/static/imgs/ico4.png" alt="">
+                        <span>人员信息</span>
+                    </li>
+                    <li>
+                        <img src="/static/imgs/ico5.png" alt="">
+                        <span>路经检测</span>
+                    </li>
+                    <li>
+                        <img src="/static/imgs/ico6.png" alt="">
+                        <span>人员体征信息</span>
+                    </li>
+                    <li>
+                        <img src="/static/imgs/icon8.png" alt="">
+                        <span>外部环境信息</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 内容部分 -->
+        <div class="bd w">
+            <!-- 搜索框 -->
+            <div class="search_table">
+                <select name="" id="">
+                    <option value="">人员</option>
+                    <option value="">人员</option>
+                    <option value="">人员</option>
+                    <option value="">人员</option>
+                    <option value="">人员</option>
+                    <option value="">人员</option>
+                </select>
+                <input type="search" class="search" placeholder="请输入姓名/电话/手机号进行搜索">
+                <button>
+                    <img src="/static/imgs/search.png" alt="">
+                </button>
+            </div>
+            <!-- 人员信息表格 -->
+            <div class="tb">
+                <table id="tableId" class="table">
+                    <thead>
+                    <tr>
+                        <th>序号</th>
+                        <th>姓名</th>
+                        <th>联系方式</th>
+                        <th >健康码颜色</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>张三</td>
+                        <td>18923456789</td>
+                        <td class="health_yello">黄色</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>李四</td>
+                        <td>18697412563</td>
+                        <td class="health_green">绿色</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>王一</td>
+                        <td>18697445961</td>
+                        <td class="health_green">绿色</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>李五</td>
+                        <td>14826487693</td>
+                        <td class="health_green">绿色</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>马黑</td>
+                        <td>18697412563</td>
+                        <td class="health_green">绿色</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>张红</td>
+                        <td>131323125843</td>
+                        <td class="health_red">红色</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>陈五柳</td>
+                        <td>18695277133</td>
+                        <td class="health_green">绿色</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>张李</td>
+                        <td>18927822563</td>
+                        <td class="health_green">绿色</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>刘七</td>
+                        <td>18694564763</td>
+                        <td class="health_red">红色</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- 路经检测图 -->
+            <div class="tb" style="display: none;">
+                <div class="map">
+                    <!-- <img src="/static/imgs/map1.jpg" alt=""> -->
+                </div>
+            </div>
+            
+
+            <!--人员体征信息表格 -->
+            <div class="tb" style="display: none;"> 
+                <table id="tableId" class="table_tz">
+                    <thead>
+                    <tr>
+                        <th>序号</th>
+                        <th>姓名</th>
+                        <th>体温</th>
+                        <th>心率</th>
+                        <th>血氧</th>
+                        <th>是否跌倒</th>
+                        <th >是否发起预警</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>张三</td>
+                        <td class="health_red">39.2℃</td>
+                        <td>75次/分</td>
+                        <td>95%</td>
+                        <td>否</td>
+                        <td class="health_red">发起预警</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>李四</td>
+                        <td>37.2℃</td>
+                        <td >66次/分</td>
+                        <td>97%</td>
+                        <td>否</td>
+                        <td class="health_green">不发起预警</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>王一</td>
+                        <td>36.5℃</td>
+                        <td class="health_yello">59次/分</td>
+                        <td>95%</td>
+                        <td>否</td>
+                        <td class="health_yello">发起预警</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>李五</td>
+                        <td>36.7℃</td>
+                        <td>63次/分</td>
+                        <td>97%</td>
+                        <td>否</td>
+                        <td class="health_green">不发起预警</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>马黑</td>
+                        <td>37.1℃</td>
+                        <td>85次/分</td>
+                        <td>96%</td>
+                        <td>否</td>
+                        <td class="health_green">不发起预警</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>张红</td>
+                        <td>37.2℃</td>
+                        <td>78次/分</td>
+                        <td>95%</td>
+                        <td>否</td>
+                        <td class="health_green">不发起预警</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>陈五柳</td>
+                        <td>37.2℃</td>
+                        <td>75次/分</td>
+                        <td>95%</td>
+                        <td>否</td>
+                        <td class="health_green">不发起预警</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>张李</td>
+                        <td>37.2℃</td>
+                        <td>73次/分</td>
+                        <td>95%</td>
+                        <td>否</td>
+                        <td class="health_green">不发起预警</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>刘七</td>
+                        <td>37.2℃</td>
+                        <td>74次/分</td>
+                        <td>95%</td>
+                        <td class="health_red">是</td>
+                        <td class="health_red">发起预警</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+             <!-- 外部环境表格 -->
+             <div class="tb" style="display: none;">
+                <table id="tableId" class="table_tz">
+                    <thead>
+                    <tr>
+                        <th>序号</th>
+                        <th>姓名</th>
+                        <th>温度</th>
+                        <th>湿度</th>
+                        <th>氧气浓度</th>
+                        <th>有害气体浓度</th>
+                        <th >是否发起预警</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>张三</td>
+                        <td>19℃</td>
+                        <td>正常</td>
+                        <td>正常</td>
+                        <td class="health_red">异常</td>
+                        <td class="health_red">发起预警</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>李四</td>
+                        <td>17℃</td>
+                        <td >正常</td>
+                        <td>正常</td>
+                        <td>正常</td>
+                        <td class="health_green">不发起预警</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>王一</td>
+                        <td>16℃</td>
+                        <td class="health_red">异常</td>
+                        <td>正常</td>
+                        <td>正常</td>
+                        <td class="health_red">发起预警</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>李五</td>
+                        <td>18℃</td>
+                        <td>正常</td>
+                        <td>正常</td>
+                        <td>正常</td>
+                        <td class="health_green">不发起预警</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>马黑</td>
+                        <td>19℃</td>
+                        <td>正常</td>
+                        <td>正常</td>
+                        <td>正常</td>
+                        <td class="health_green">不发起预警</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>张红</td>
+                        <td>18℃</td>
+                        <td>正常</td>
+                        <td>正常</td>
+                        <td>正常</td>
+                        <td class="health_green">不发起预警</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>陈五柳</td>
+                        <td>26℃</td>
+                        <td>正常</td>
+                        <td>正常</td>
+                        <td>正常</td>
+                        <td class="health_green">不发起预警</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>张李</td>
+                        <td>19℃</td>
+                        <td>正常</td>
+                        <td>正常</td>
+                        <td>正常</td>
+                        <td class="health_green">不发起预警</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>刘七</td>
+                        <td>17℃</td>
+                        <td>正常</td>
+                        <td>正常</td>
+                        <td class="health_red">异常</td>
+                        <td class="health_red">发起预警</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div> 
+        </div>   
+    </div>
+    <!-- 浮动标 -->
+    <div class="sfr">
+                <a id="hhh" href="#">
+                    <img id="gry" src="/static/imgs/contactus-gry.png" alt="">
+                    <span class="pls-floatbar-button-desc">联系我们</span>
+                </a>
+                
+            </div> 
+    
+</body>
+</html>

@@ -1,0 +1,133 @@
+body {
+
+    background: url(/static/imgs/bgc2.jpg) no-repeat -200px -260px ;
+}
+.box{
+    width: 1200px;
+    height: 650px;
+    background: url(/static/imgs/bgclogin.jpg) no-repeat;
+    margin: 40px auto;
+    box-shadow: 10px 10px 30px 7px #030e1d4c;
+    border: 1px solid transparent;
+    
+}
+.back_box{
+    width: 1200px;
+    height: 45px;
+    /* background-color: pink; */
+    margin-top: 30px;
+    line-height: 45px;
+    font-size: 16px;
+    padding-left: 50px;
+
+}
+.back_box img{
+    width: 20px;
+}
+
+
+.box-content{
+    width: 1051px;
+    height: 492px;
+    /* background-color: aliceblue; */
+    margin: 10px auto;
+}
+.bl{
+    float: left;
+    width: 562px;
+    height: 492px;
+    text-align: center;
+
+    /* background-color: rgb(191, 147, 232); */
+}
+.box-content h2{
+    margin-top: 30px;
+    height: 20px;
+    width: 562px;
+    /* background-color: aliceblue; */
+    line-height: 20px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    /* font-weight: normal; */
+    font-family: 黑体;
+}
+.box-content p{
+    text-align: center;
+    font-size: 14px;
+    font-family: 宋体;
+    margin: 20px 0px;
+}
+.box-content img{
+    text-align: center;
+    width: 320px;
+}
+
+
+.br{
+    float: right;
+    width: 434px;
+    height: 492px;
+    background-color: #fff;
+    border-radius: 70px 2px 70px 2px;
+    box-shadow: 10px 10px 30px 2px #030e1dd6;
+}
+.br .br_header{
+    font-size: 28px;
+    height: 28px;
+    width: 434px;
+    /* background-color: pink; */
+    line-height: 28px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.login_form img{
+    width: 20px;
+}
+form input{
+    color:#a1a1a1;
+    font-size: 19px;
+    width: 300px;
+    height: 45px;
+	border-bottom: 1px solid #0082fe;
+	margin-bottom: 40px;
+	/* position: relative; */
+}
+.login_form{
+    margin: 50px 50px 0px 50px;
+
+}
+.wangji a{
+    display: inline-block;
+    width: 400px;
+    color: #0082fe;
+    padding-left: 320px;
+    /* margin-right: 58px; */
+    /* float: right; */
+}
+.btn{
+    text-align: center;
+}
+.btn button{
+    display: inline-block;
+    margin-top: 50px;
+    width: 60%;
+    height: 50px;
+    border-radius: 10px;
+    border: 0;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    background-image: linear-gradient(to right, #4bf1e3, #6553d0);
+}
+.creat{
+    text-align: center;
+    margin-top: 35px;
+    font-size: 12px;
+    color: #a1a1a1;
+}
+.creat a{
+    color: #0082fe;
+}
